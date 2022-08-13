@@ -207,7 +207,13 @@ app.layout = dbc.Container([
         html.P('This graph was produced by animating a Plotly pie chart.',
                style = {
                            'font-size':22,
-                          'text-align':'center'})
+                          'text-align':'center'}),
+        html.Label(['Check the Project on ', 
+                html.A('GitHub', href='https://github.com/tuopouk/pacmanimation')
+                ],style={
+                            'font-size':22,
+                           'text-align':'center'})
+        
     
     
     ], fluid = True, className = 'dbc')
