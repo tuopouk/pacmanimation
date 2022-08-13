@@ -191,7 +191,7 @@ app.layout = dbc.Container([
                            'text-align':'center',
                            'margin-bottom': '50px'}
         ),
-        html.H2('Pac-man on Plotly',
+        html.H2('Pac-Man on Plotly',
                 style = {
                             'font-size':'52px',
                            'text-align':'center',
