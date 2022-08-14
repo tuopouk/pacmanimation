@@ -105,7 +105,7 @@ frames = []
 
 frame = 0.00
 
-for i in range(10000):
+for i in range(1000):
     
     if frame > .30:
         frame = 0.00
