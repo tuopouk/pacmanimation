@@ -1,7 +1,8 @@
 # pacmanimation
 
 
-This Pac Man animated with a Plotly pie chart
+This Pac Man animated with a Plotly pie chart.
+
 Check the app here:
 https://pacmanimation.herokuapp.com/
 
