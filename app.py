@@ -2,6 +2,8 @@
 """
 Created on Sat Aug 13 14:33:37 2022
 
+An app to play with Plotly animations.
+
 @author: tuomas.poukkula
 """
 
@@ -41,14 +43,6 @@ navbar = dbc.Navbar(
     
     dbc.Row([
         
-        dbc.Col([
-            html.A([
-                html.Img(src = 'assets/gofore_logo_white.svg',
-                          height="60px")
-                ],
-                href = 'https://gofore.com/', 
-                target='_blank')
-            ]),#xl = 4, lg = 4, md = 12, sm = 12),
    
         dbc.Col([
             dbc.NavItem(theme_changer),
